@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Weather App By Kishor</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Weather App</h1>
+      <div class="search-box">
+        <p class="input-info"></p>
+        <div class="top">
+          <input type="text" class="cityname" placeholder="Enter a city name" />
+          <button class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+        <button class="location">Get Current Location</button>
+      </div>
+      <div class="weather-box">
+        <div class="basic-info">
+          <div class="city-country flex">
+            <span class="city-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <p class="city-name">Kathmandu, Nepal</p>
+          </div>
+          <div class="main">
+            <img src="" alt="" class="weather-icon" />
+
+            <div class="temp">32°</div>
+          </div>
+
+          <div class="desc">-</div>
+          <div class="feels-like">-</div>
+       
+      </div>
+      <div class="more-info">
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-eye"></i></div>
+          <div class="visibility">-</div>
+          <div class="text">Visibility</div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-droplet"></i></div>
+          <div class="humidity">1000</div>
+          <div class="text">Humidity</div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa-solid fa-wind"></i></div>
+          <div class="wind">6 kmph</div>
+          <div class="text">Wind</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
