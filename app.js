@@ -48,8 +48,6 @@ function fetchData(){
     fetch(api)
     .then((response)=>response.json())
     .then((result)=>weatherDetails(result))
-    cityField.value = '';
-    
 }
 
 function weatherDetails(data){

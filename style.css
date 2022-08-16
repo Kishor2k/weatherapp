@@ -9,13 +9,13 @@
 :root{
     --primary-clr: hsl(216, 89%, 53%);
     --primary-dark:hsl(216, 79%, 32%);
-    --accent-clr:hsl(60, 100%, 65%);
+    --accent-clr:hsl(60, 80%, 70%);
     --light-clr:hsl(50, 100%, 94%);
     --text-clr:#fff;
     --text-clr-darker:rgba(255, 255, 255, 0.822);
     --border-radius: 20px;
     --search-box-width:50px;
-    --error-clr:hsl(0, 82%, 53%);
+    --error-clr:hsl(0, 85%, 60%);
 }
 
 
@@ -24,7 +24,7 @@ body{
     padding:20px;
     color:var(--text-clr);
     text-align: center;
-    background: #eee;
+    background: rgb(205, 210, 255);
 }
 .flex{
     display: flex;
@@ -48,13 +48,14 @@ button:hover{
 }
 .input-info.error{
     display: block;
-    background:red;
+    background:var(--error-clr);
 }
 .card{
     background:var(--primary-clr);
     border-radius:var(--border-radius);
     max-width:500px;
     padding:40px 0 20px 0;
+    margin-inline:auto;
 }
 .weather-box{
     display:none;
